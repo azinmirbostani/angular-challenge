@@ -1,0 +1,8 @@
+<div class="container-fluid">
+    <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-5 ">
+        <div  *ngFor="let operation of operations" class="col operation-div">
+            <app-list-operation [data]="operation"></app-list-operation>
+        </div>
+    </div>
+</div>
+    
